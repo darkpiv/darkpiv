@@ -1,8 +1,8 @@
 ---
-title: 'My forth post'
+title: 'My first post'
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-date: '2020-07-07'
-modified_date: '2020-07-07'
+date: '2020-11-28'
+modified_date: '2020-11-28'
 image: /assets/images/posts/random-img.jpg
 ---
 
@@ -10,12 +10,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Example with image:
 
-![Error](@@baseUrl@@/assets/images/posts/error.png)
+![Error](@@baseUrl@@/assets/images/12.jpg)
 
 Example code block:
 
-```js
-function myFunction() {
-  return true;
+```go
+func main() {
+  log.Printf("Hello world")
 }
 ```
