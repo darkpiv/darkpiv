@@ -19,6 +19,11 @@ const BlogGallery = (props: IBlogGalleryProps) => (
           <Link href="/posts/[slug]" as={`/posts/${elt.slug}`}>
             <a>
               <h2>{elt.title}</h2>
+              <img
+                src={elt.image}
+                alt="placeholer"
+                className="h-56 hover:opacity-75 object-contain max-w-100"
+              />
             </a>
           </Link>
 
