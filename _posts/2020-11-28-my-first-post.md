@@ -1,18 +1,16 @@
 ---
 title: 'My first post'
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+description: May the force be with me. It's been a long time no writing anything. Now I want to be the writer of my own life.
 date: '2020-11-28'
 modified_date: '2020-11-28'
 image: /assets/images/12.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+> May the force be with me after a long time no writing anything. Now I want to be the writer of my life...
 
 Example with image:
 
-![Error](@@baseUrl@@/assets/images/12.jpg)
-
-Example code block:
+![Me and her](@@baseUrl@@/assets/images/12.jpg)
 
 ```go
 func main() {
