@@ -8,7 +8,7 @@ image: /assets/images/12.jpg
 
 > May the force be with me after a long time no writing anything. Now I want to be the writer of my life...
 
-Example with image:
+Send some love...
 
 ![Me and her](@@baseUrl@@/assets/images/12.jpg)
 
