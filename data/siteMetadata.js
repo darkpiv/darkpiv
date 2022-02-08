@@ -10,7 +10,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/darkpiv/darkpiv',
   siteLogo: '/static/images/avatar.jpeg',
   image: '/static/images/avatar.jpeg',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/avatar.jpeg',
   email: 'darkpiv@darkpiv.com',
   github: 'https://github.com/darkpiv',
   twitter: 'https://twitter.com/_darkpiv',
