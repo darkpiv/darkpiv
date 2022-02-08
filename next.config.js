@@ -10,7 +10,7 @@ const ContentSecurityPolicy = `
   img-src * blob: data:;
   media-src 'none';
   connect-src *;
-  font-src 'self' cdn.jsdelivr.net;
+  font-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.jsdelivr.net;
   frame-src utteranc.es
 `
 
