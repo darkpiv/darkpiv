@@ -8,4 +8,6 @@ Currently, I'm learning Web3 stack for some side projects. I'm also interested i
 
 Feel free to drop a message via https://twitter.com/_darkpiv.
 
+**Credit to https://github.com/timlrx/tailwind-nextjs-starter-blog for his awewsome blog starter**
+
 Cheers
