@@ -6,7 +6,7 @@ const siteMetadata = {
     'Này là blog cá nhân của mình, share về những thứ bản thân cảm thấy hay ho hoặc đơn giản chỉ là 1 daily, weekly note :D Nếu bạn có hứng thú về tech, về cuộc sống của 1 coder hay thích mấy cái xàm xàm nhưng deep deep thì subscribe thôi ngại gì.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://darkpiv.com',
+  siteUrl: 'https://www.darkpiv.com',
   siteRepo: 'https://github.com/darkpiv/darkpiv',
   siteLogo: '/static/images/avatar.jpeg',
   image: '/static/images/avatar.jpeg',
@@ -52,4 +52,4 @@ const siteMetadata = {
   },
 }
 
-module.exports = siteMetadata
+export default siteMetadata

@@ -1,11 +1,9 @@
-const fs = require('fs')
-const globby = require('globby')
-const matter = require('gray-matter')
-const prettier = require('prettier')
-const siteMetadata = require('../data/siteMetadata')
-
 ;(async () => {
-  const prettierConfig = await prettier.resolveConfig('./.prettierrc.js')
+  const { existsSync, readFileSync, writeFileSync } = (await import('fs')).default
+  const globby = (await import('globby')).globby
+  const matter = (await import('gray-matter')).default
+  const { resolveConfig, format } = (await import('prettier')).default
+  const prettierConfig = await resolveConfig('./.prettierrc.js').default
   const pages = await globby([
     'pages/*.js',
     'pages/*.tsx',
@@ -23,8 +21,8 @@ const siteMetadata = require('../data/siteMetadata')
             ${pages
               .map((page) => {
                 // Exclude drafts from the sitemap
-                if (page.search('.md') >= 1 && fs.existsSync(page)) {
-                  const source = fs.readFileSync(page, 'utf8')
+                if (page.search('.md') >= 1 && existsSync(page)) {
+                  const source = readFileSync(page, 'utf8')
                   const fm = matter(source)
                   if (fm.data.draft) {
                     return
@@ -46,7 +44,7 @@ const siteMetadata = require('../data/siteMetadata')
                 }
                 return `
                         <url>
-                            <loc>${siteMetadata.siteUrl}${route}</loc>
+                            <loc>https://www.darkpiv.com${route}</loc>
                         </url>
                     `
               })
@@ -54,11 +52,11 @@ const siteMetadata = require('../data/siteMetadata')
         </urlset>
     `
 
-  const formatted = prettier.format(sitemap, {
+  const formatted = format(sitemap, {
     ...prettierConfig,
     parser: 'html',
   })
 
   // eslint-disable-next-line no-sync
-  fs.writeFileSync('public/sitemap.xml', formatted)
+  writeFileSync('public/sitemap.xml', formatted)
 })()
