@@ -1,6 +1,6 @@
 ;(async () => {
   const { existsSync, readFileSync, writeFileSync } = (await import('fs')).default
-  const globby = (await import('globby')).globby
+  const globby = (await import('globby')).default
   const matter = (await import('gray-matter')).default
   const { resolveConfig, format } = (await import('prettier')).default
   const prettierConfig = await resolveConfig('./.prettierrc.js').default
@@ -25,6 +25,9 @@
                   const source = readFileSync(page, 'utf8')
                   const fm = matter(source)
                   if (fm.data.draft) {
+                    return
+                  }
+                  if (fm.data.canonicalUrl) {
                     return
                   }
                 }
