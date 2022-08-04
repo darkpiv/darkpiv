@@ -2,6 +2,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
+const enabledPreactInProduction = process.env.ENABLED_PREACT_IN_PRODUCTION === 'true'
+
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
   default-src 'self';
@@ -58,6 +60,7 @@ module.exports = withBundleAnalyzer({
   eslint: {
     dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
   },
+  swcMinify: true,
   async headers() {
     return [
       {
@@ -72,7 +75,7 @@ module.exports = withBundleAnalyzer({
       use: ['@svgr/webpack'],
     })
 
-    if (!dev && !isServer) {
+    if (!dev && !isServer && enabledPreactInProduction) {
       // Replace React with Preact only in client production build
       Object.assign(config.resolve.alias, {
         'react/jsx-runtime.js': 'preact/compat/jsx-runtime',
