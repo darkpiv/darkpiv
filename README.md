@@ -10,7 +10,8 @@
 ## I'm Daniel
 
 - I love building products that help us save some ⏲️.
-- I like to force my 💻 to run, some ☕ in the morning, read some of my tech feeds :D.
+- I like to force my 💻 to run, drink ☕ in the morning, read some of my tech feeds :D.
+- I also love music, please visit my soundcloud channel https://soundcloud.com/darkpiv
 
 ![](https://github.com/darkpiv/github-stats/blob/master/generated/overview.svg)
 ![](https://github.com/darkpiv/github-stats/blob/master/generated/languages.svg)
