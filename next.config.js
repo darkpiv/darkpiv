@@ -7,13 +7,13 @@ const enabledPreactInProduction = process.env.ENABLED_PREACT_IN_PRODUCTION === '
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' utteranc.es;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' utteranc.es www.youtube.com;
   style-src 'self' 'unsafe-inline' cdn.jsdelivr.net;
   img-src * blob: data:;
   media-src 'none';
   connect-src *;
   font-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.jsdelivr.net;
-  frame-src utteranc.es
+  frame-src www.youtube.com utteranc.es
 `
 
 const securityHeaders = [

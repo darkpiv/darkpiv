@@ -35,10 +35,12 @@ const Utterances = () => {
 
   // Reload on theme change
   useEffect(() => {
-    const iframe = document.querySelector('iframe.utterances-frame')
-    if (!iframe) return
-    LoadComments()
-  }, [LoadComments])
+    // const iframe = document.querySelector('iframe.utterances-frame')
+    // if (!iframe) return
+    if (enableLoadComments) {
+      LoadComments()
+    }
+  }, [LoadComments, enableLoadComments])
 
   // Added `relative` to fix a weird bug with `utterances-frame` position
   return (
