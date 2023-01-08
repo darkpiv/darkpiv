@@ -1,6 +1,6 @@
 const siteMetadata = {
   title: "darkpiv's blog",
-  author: 'Daniel Hoàng',
+  author: 'Nhất Hoàng',
   headerTitle: "darkpiv's blog",
   description:
     'Này là blog cá nhân của mình, share về những thứ bản thân cảm thấy hay ho hoặc đơn giản chỉ là 1 daily, weekly note :D Nếu bạn có hứng thú về tech, về cuộc sống của 1 coder hay thích mấy cái xàm xàm nhưng deep deep thì subscribe thôi ngại gì.',
@@ -11,7 +11,7 @@ const siteMetadata = {
   siteLogo: '/static/images/avatar.jpeg',
   image: '/static/images/avatar.jpeg',
   socialBanner: '/static/images/avatar.jpeg',
-  email: 'darkpiv@darkpiv.com',
+  email: 'duynhat.cse@gmail.com',
   github: 'https://github.com/darkpiv',
   twitter: 'https://twitter.com/_darkpiv',
   facebook: 'https://facebook.com/darkpiv',

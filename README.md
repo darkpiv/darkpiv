@@ -6,8 +6,7 @@
   </a>
 </div>
 
-
-## I'm Daniel
+## I'm Nhất Hoàng
 
 - I love building products that help us save some ⏲️.
 - I like to force my 💻 to run, drink ☕ in the morning, read some of my tech feeds :D.
@@ -16,9 +15,7 @@
 ![](https://github.com/darkpiv/github-stats/blob/master/generated/overview.svg)
 ![](https://github.com/darkpiv/github-stats/blob/master/generated/languages.svg)
 
-
 Feel free to drop a message via https://twitter.com/_darkpiv.
-
 
 **Credit to https://github.com/timlrx/tailwind-nextjs-starter-blog for his awewsome blog starter**
 
