@@ -8,7 +8,7 @@
 
 ## I'm Nhất Hoàng
 
-- I love building products that help us save some ⏲️.
+- I'm trying to make the world better. Even a small thing can make a big different.
 - I like to force my 💻 to run, drink ☕ in the morning, read some of my tech feeds :D.
 - I also love music, please visit my soundcloud channel https://soundcloud.com/darkpiv
 
