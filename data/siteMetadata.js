@@ -11,7 +11,7 @@ const siteMetadata = {
   siteLogo: '/static/images/avatar.jpeg',
   image: '/static/images/avatar.jpeg',
   socialBanner: '/static/images/avatar.jpeg',
-  email: 'duynhat.cse@gmail.com',
+  email: 'darkpiv@outlook.com',
   github: 'https://github.com/darkpiv',
   twitter: 'https://twitter.com/_darkpiv',
   facebook: 'https://facebook.com/darkpiv',

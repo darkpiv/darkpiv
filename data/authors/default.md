@@ -3,9 +3,9 @@ name: Nhất Hoàng
 avatar: /static/images/avatar.jpeg
 occupation: Software Engineer at Axon
 company: https://www.axon.com
-email: duynhat.cse@gmail.com
+email: darkpiv@outlook.com
 twitter: https://twitter.com/_darkpiv
 linkedin: https://www.linkedin.com/in/duynhat/
 github: https://github.com/darkpiv
-describe: 'I love building products that help us save some ⏲️.'
+describe: 'Try to make my world better'
 ---
