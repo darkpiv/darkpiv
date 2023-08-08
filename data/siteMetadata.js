@@ -1,12 +1,12 @@
 const siteMetadata = {
-  title: "darkpiv's blog",
+  title: "Nhất Hoàng's blog",
   author: 'Nhất Hoàng',
-  headerTitle: "darkpiv's blog",
+  headerTitle: "Nhất Hoàng's blog",
   description:
     'Này là blog cá nhân của mình, share về những thứ bản thân cảm thấy hay ho hoặc đơn giản chỉ là 1 daily, weekly note :D Nếu bạn có hứng thú về tech, về cuộc sống của 1 coder hay thích mấy cái xàm xàm nhưng deep deep thì subscribe thôi ngại gì.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://www.darkpiv.com',
+  siteUrl: 'https://www.nhathoang.one',
   siteRepo: 'https://github.com/darkpiv/darkpiv',
   siteLogo: '/static/images/avatar.jpeg',
   image: '/static/images/avatar.jpeg',
@@ -49,6 +49,20 @@ const siteMetadata = {
       async: true,
     },
     giscusConfig: {},
+  },
+  search: {
+    provider: 'kbar', // kbar or algolia
+    kbarConfig: {
+      searchDocumentsPath: 'search.json', // path to load documents to search
+    },
+    // provider: 'algolia',
+    // algoliaConfig: {
+    //   // The application ID provided by Algolia
+    //   appId: 'R2IYF7ETH7',
+    //   // Public API key: it is safe to commit it
+    //   apiKey: '599cec31baffa4868cae4e79f180729b',
+    //   indexName: 'docsearch',
+    // },
   },
 }
 
