@@ -1,3 +1,4 @@
+/** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: "Nhất Hoàng's blog",
   author: 'Nhất Hoàng',
@@ -69,4 +70,4 @@ const siteMetadata = {
   },
 }
 
-export default siteMetadata
+module.exports = siteMetadata
