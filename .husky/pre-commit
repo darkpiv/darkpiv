@@ -1,1 +1,12 @@
-npx --no-install lint-staged
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Add common Node.js paths
+export PATH="$PATH:/opt/homebrew/bin:/usr/local/bin:$HOME/.yarn/bin"
+
+# Use yarn if available, otherwise fall back to npx
+if command -v yarn >/dev/null 2>&1; then
+  yarn lint-staged
+else
+  npx --no-install lint-staged
+fi
